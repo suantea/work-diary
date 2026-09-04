@@ -1,0 +1,36 @@
+node_modules/
+dist/
+dist-electron/
+.electron-cache/
+tesseract/
+*.log
+
+# 用户数据和备份（可能包含通过 OCR 截获的 API key）
+work-report-backup-*.json
+release/
+*.local.json
+
+# 本机工具配置（含绝对路径，仅本地使用）
+.mcp-sqlite.json
+opencode.json
+.opencode/
+
+# 个人 Agent 技能（描述本地 WebDAV 数据管道，不上传）
+skills/
+.opencode/skills/
+
+# OneDrive/网盘冲突副本
+*Conflicted copy*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Playwright 快照
+.playwright-mcp/
+
+# 系统
+Thumbs.db
+.DS_Store
